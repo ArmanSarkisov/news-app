@@ -1,0 +1,19 @@
+.button {
+    position: relative;
+    width: 100%;
+}
+
+.button_btn {
+    background-color: #0096c7;
+    border-radius: 6px;
+    border: none;
+    color: #f1f1f1;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button_btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

@@ -1,0 +1,85 @@
+.header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #e63946;
+    color: #f1f1f1;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.header__logoNav, .header__searchContact {
+    display: flex;
+    align-items: center;
+}
+
+.header__searchContact {
+    width: 40%;
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.header__searchContact > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1150px) {
+    .header__searchContact {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__searchContact {
+        width: 55%;
+    }
+}
+@media screen and (max-width: 833px) {
+    .header__searchContact {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .header__content {
+        flex-direction: column-reverse;
+        height: 120px;
+        padding: 10px 0;
+    }
+    .header__searchContact {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__searchContact input {
+        padding: 8px 3px;
+    }
+    .header__searchContact button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .header__content {
+        height: 200px;
+    }
+    .header__searchContact {
+        flex-direction: column;
+    }
+    .header__searchContact > div:first-child {
+        margin-bottom: 10px;
+    }
+    .header__searchContact > div {
+        justify-content: center !important;
+        width: auto;
+    }
+}

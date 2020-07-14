@@ -1,0 +1,44 @@
+.content {
+    width: 450px;
+    border-radius: 8px;
+    padding: 40px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form > div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    border-color: #e63946 !important;
+}
+
+
+@media screen and (max-width: 460px) {
+    .content {
+        width: 310px;
+    }
+}

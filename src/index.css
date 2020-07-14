@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, select, textarea {
+  font-family: Roboto, sans-serif;
+}
+::-webkit-input-placeholder {
+  font-family: Roboto, sans-serif;
+}
+:-moz-placeholder {
+  font-family: Roboto, sans-serif;
+}
+::-moz-placeholder {
+  font-family: Roboto, sans-serif;
+}
+:-ms-input-placeholder {
+  font-family: Roboto, sans-serif;
+}

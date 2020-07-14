@@ -1,0 +1,13 @@
+.inputWrap {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input {
+    outline: none;
+    width: 100%;
+    display: block;
+    padding: 12px 16px;
+    border: 1px solid #111;
+    border-radius: 4px;
+}

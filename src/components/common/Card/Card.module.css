@@ -1,0 +1,42 @@
+.card {
+    width: 80%;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card__img {
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card__content {
+    width: 54%;
+    padding: 20px;
+}
+
+.card__date {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 670px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card__img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .card__content {
+        width: 100%;
+    }
+}
